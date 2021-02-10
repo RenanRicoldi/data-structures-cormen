@@ -1,0 +1,19 @@
+{
+  "name": "data-structures-cormen",
+  "version": "1.0.1",
+  "description": "Data strucutres based on the third edition of Cormen et al Introductions to Algortihms.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Renan Ricoldi Frois Pedro <renan.ricoldi.frois@gmail.com>",
+  "repository": {
+    "url": "https://github.com/RenanRicoldi/data-structures-cormen"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
